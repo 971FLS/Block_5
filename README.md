@@ -1,15 +1,14 @@
 # Block_5
- Projet **Getaround** pour le Bloc 5 de la certification
+Projet **Getaround** pour le Bloc 5 de la certification
 
+Voir la présentation vidéo du projet : https://share.vidyard.com/watch/kSLDuJN34xuFpKq5T8GgTC?
 
 # Introduction
 Ce repository contient les répertoires des livrables pour le projet Getaround.
 
  
 ## Analyse des retards et prédiction de tarifs
-Présentation vidéo du projet réalisé : https://share.vidyard.com/watch/bTYz2UfrLu4h8gyMdkchmf?
-
-Ce projet contient plusieurs notebooks : un notebook par modèle.
+Cette partie contient plusieurs notebooks : un notebook par modèle.
 * 01-Getaround_analysis.ipynb : Enoncé des besoins
 * 02_Cars_delays_and_cancelations.ipynb : Analyse des retards, annulations et recommandation
 * 03_Price_optimization.ipynb : Analyse des caractéristiques des voitures et prédiction de tarifs
