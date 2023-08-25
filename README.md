@@ -1,34 +1,33 @@
-# Block_3
- Projets pour le Bloc 3 de la certification
+# Block_5
+ Projet **Getaround** pour le Bloc 5 de la certification
 
 
 # Introduction
-Ce repository contient les répertoires des 3 projets soumis à la certification pour le bloc 3.
+Ce repository contient les répertoires des livrables pour le projet Getaround.
 
  
-## Projet Challenge Conversion Rate
+## Analyse des retards et prédiction de tarifs
 Présentation vidéo du projet réalisé : https://share.vidyard.com/watch/bTYz2UfrLu4h8gyMdkchmf?
 
 Ce projet contient plusieurs notebooks : un notebook par modèle.
-Sans spoiler la fin, voici la structure des fichiers : 
-* 00-Conversion_rate_challenge_Baseline.ipynb : Baseline du challenge
-* 01-Conversion rate 2 - Regression logistique multivariee.ipynb : meilleur résultat atteint
-* 02-Conversion_rate_challenge.ipynb : Enoncé du projet.
+* 01-Getaround_analysis.ipynb : Enoncé des besoins
+* 02_Cars_delays_and_cancelations.ipynb : Analyse des retards, annulations et recommandation
+* 03_Price_optimization.ipynb : Analyse des caractéristiques des voitures et prédiction de tarifs
+* 04_api_test.ipynb : Test de l'API créée pour déployer le modèle (externe et dans le dashboard)
+* Les notebooks s'accompagnent d'un répertoire **src** contenant les datasets originaux
  
  
-## Projet Uber pickups
-Présentation vidéo du projet réalisé : https://share.vidyard.com/watch/yD8ZXxrujprKEdJAV5Saxz?
+## Création d'une API
+Cette dimension du projet a consisté à créer une API permettant à Getaround de prédire des prix.
+Il s'agit du répertoire **api**
+ 
+ 
+## Création d'un dashboard (en anglais)
+Il s'agit du répertoire streamlit. Ce répertoire contient un sous-répertoire src contenant les datasets.
 
-Ce projet contient 2 notebooks : 
-* 01-Uber_Pickups.ipynb : Enoncé du projet Uber
-* Block_3_Projet_Uber.ipynb : Notebook du projet soumis à certification
-* Répertoire src : contient les datasets pour le projet
- 
- 
-## Projet Wallmart
-Présentation vidéo du projet : https://share.vidyard.com/watch/Zi7VZx8H65NytsKhNe7Dnb?
+Ce dashboard a été créé pour extraire les KPI intéressants pour répondre aux questions du marketing Getaround :
+* Which share of our owner’s revenue would potentially be affected by the feature?
+* How many rentals would be affected by the feature depending on the threshold and scope we choose?
+* How often are drivers late for the next check-in? How does it impact the next driver?
+* How many problematic cases will it solve depending on the chosen threshold and scope?
 
-Ce projet contient 2 notebooks : 
-* 01-Enonce du projet_Walmart_sales.ipynb : Enoncé du projet Wallmart
-* Block 3 - Projet Wallmart.ipynb : Notebook du projet Wallmart soumis à certification
-* Walmart_Store_sales.csv : dataset fourni par Walmart
